@@ -17,10 +17,16 @@
         /*}*/
 
         .homepage{
+            position: fixed;
+            top: 1px;
             line-height: 80px;
+            width: 100%;
             background-color: #68CDD5;
             color: white;
             font-size: 36px;
+        }
+        .head{
+            margin-top: 80px;
         }
 
         .homepage1{
@@ -34,14 +40,13 @@
             background-size: 100% 325px;
             background-repeat: no-repeat;
             color: #ffffff;
-            position: relative;
+            /*position: relative;*/
 
 
         }
         .people{
-            position: relative;
-            bottom:-15px;
-            right: -20px;
+            margin-left: 10px;
+            margin-top: 20px;
 
 
         }
@@ -266,13 +271,16 @@
     </style>
 </head>
 <body>
+<div class="homepage">
+    <div class="homepage1">&lt;</div>
+    <div class="homepage2">个人主页</div>
+</div>
 <div class="head">
-    <div class="homepage">
-        <div class="homepage1">&lt;</div>
-        <div class="homepage2">个人主页</div>
-    </div>
+
     <div class="background">
-        <img class="people" src ="igm/web6.png">
+        <div class="people">
+            <img class="people" src ="igm/web6.png">
+        </div>
         <div class="card">
             <div class="name">
                 高素雅&nbsp&nbsp51岁
